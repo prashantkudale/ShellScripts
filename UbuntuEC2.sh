@@ -1,6 +1,8 @@
+#!/bin/bash
+
 # Below script will execute the Jenkins on Ubuntu machine.
 # Put this script to Instance User Data while creating Instance
-#!/bin/bash
+
 sudo apt update -y
 sudo apt install fontconfig openjdk-17-jre -y
 sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc \

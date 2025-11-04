@@ -1,6 +1,8 @@
-# Below script will execute the Jenkins on Amazone Linux machine.
-# Put this script to Instance User Data while creating Instance
 #!/bin/bash
+
+# Below script will execute the Jenkins on Amazone Linux machine.
+# Put this script to Instance User Data while creating Instance.
+
 sudo yum update -y
 sudo dnf install java-17-amazon-corretto -y
 sudo wget -O /etc/yum.repos.d/jenkins.repo \
